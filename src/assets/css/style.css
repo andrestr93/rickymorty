@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "font";
+  src: url("../font/font/font.ttf");
+}
+body {
+  text-align: center;
+  background-color: #05373d;
+  font-family: font;
+}
+
+#logo img {
+  max-width: 500px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #b3dc2b;
+  font-size: 30px;
+  padding-left: 50px;
+  font-family: font;
+}
+
+.content {
+  margin-top: 80px;
+  max-width: 450px;
+  margin: 0px auto;
+  display: inline-block;
+ 
+}
+.container-general{
+
+  display: inline-block;
+}
+.content h1 {
+  color: #b3dc2b;
+  font-size: 40px;
+  font-family: font;
+}
+.content h3, h2{
+
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 25px;
+ 
+}
+
+.content-personaje{
+font-family: monospace;
+font-size: 30px;
+color: white;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.content-personaje p{
+
+  font-size: 20px;
+}
+
+.container-img {
+  max-width: 350px;
+  margin: 0px auto;
+}
+
+.container-img img {
+  width: 250px;
+}
+
+article p {
+  font-family: monospace;
+  color: white;
+  font-size: 15px;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+footer {
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 25px;
+}
